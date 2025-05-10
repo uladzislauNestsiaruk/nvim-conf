@@ -55,3 +55,13 @@ keymap("n", "<Leader>tl", "<cmd>tabnext<cr>", { desc = "go to the next tab" })
 keymap("n", "<Leader>th", "<cmd>-tabnext<cr>", { desc = "go to the previous tab" })
 keymap("n", "<Leader>tml", "<cmd>+tabmove<cr>", { desc = "move tab to the right" })
 keymap("n", "<Leader>tmh", "<cmd>-tabmove<cr>", { desc = "move tab to the left" })
+
+--- Screen split ---
+keymap("n", "<Leader>sv", "<cmd>vsplit<cr>", { desc = "split vertically" })
+keymap("n", "<Leader>sh", "<cmd>split<cr>", { desc = "split horizontally" })
+keymap("n", "<Leader>sx", "<cmd>close<cr>", { desc = "close splited part" })
+
+keymap("n", "<C-h>", "<C-w>h", { desc = "move to the left split" })
+keymap("n", "<C-j>", "<C-w>j", { desc = "move to the down split" })
+keymap("n", "<C-k>", "<C-w>k", { desc = "move to the up split" })
+keymap("n", "<C-l>", "<C-w>l", { desc = "move to the right split" })

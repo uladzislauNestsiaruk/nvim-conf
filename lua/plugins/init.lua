@@ -26,4 +26,5 @@ return {
 	require("plugins.airline"),
 	require("plugins.autopairs"),
 	require("plugins.which-key"),
+	require("plugins.transparent"),
 }
